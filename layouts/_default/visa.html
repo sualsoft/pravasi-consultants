@@ -1,0 +1,36 @@
+{{define "main"}}
+<!-- ======= Hero Section ======= -->
+<section
+  id="innerhero"
+  class="d-flex justify-content-center align-items-center"
+  style="background-image: url({{.Params.img}})"
+>
+  <div class="container d-flex justify-content-center">
+    <div class="row justify-content-center">
+      <h2>{{.Title}}</h2>
+    </div>
+  </div>
+</section>
+<!-- End Hero -->
+
+<!--Categories-->
+
+<section class="visa-category">
+  <div class="container">
+    <div class="row">
+      {{ range sort (where .Site.RegularPages "Section" "visa-categories")
+      "Weight" }}
+
+      <div class="col-lg-4 mt-4">
+        <div class="card">
+          <img src="{{.Params.icon}}" alt="Visa" />
+          <p>
+            <a href="{{ .Permalink }}" class="stretched-link">{{.Title}}</a>
+          </p>
+        </div>
+      </div>
+      {{end}}
+    </div>
+  </div>
+</section>
+{{end}}

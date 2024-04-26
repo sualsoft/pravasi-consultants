@@ -1,0 +1,344 @@
+{{define "main"}}
+<!-- ======= Hero Section ======= -->
+<section
+  id="innerhero"
+  class="d-flex justify-content-center align-items-center"
+  style="background-image: url({{.Params.img}})"
+>
+  <div class="container d-flex justify-content-center">
+    <div class="row justify-content-center">
+      <h2>{{.Title}}</h2>
+    </div>
+  </div>
+</section>
+<!-- End Hero -->
+
+<section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+    <div class="row gx-lg-0 gy-4">
+      <div class="col-lg-8">
+        <form
+          action="forms/contact.php"
+          method="post"
+          role="form"
+          class="php-email-form"
+        >
+          <div class="row">
+            <!--Name-->
+            <div class="col-md-6 form-group">
+              <input
+                type="text"
+                name="fname"
+                class="form-control"
+                id="fname"
+                placeholder="First Name"
+                required
+              />
+            </div>
+            <div class="col-md-6 form-group">
+              <input
+                type="text"
+                name="lname"
+                class="form-control"
+                id="lname"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+
+            <!--Email-->
+            <div class="col-md-6 form-group mt-3">
+              <input
+                type="email"
+                class="form-control"
+                name="email"
+                id="email"
+                placeholder="Your Email"
+                required
+              />
+            </div>
+
+            <!--Phone Number-->
+            <div class="col-md-6 form-group mt-3">
+              <input
+                type="text"
+                name="phone"
+                class="form-control"
+                id="phone"
+                placeholder="Phone Number"
+                required
+              />
+            </div>
+
+            <!--Country-->
+            <div class="col-md-12 form-group mt-3">
+              <label for="country">Country</label>
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                id="country"
+              >
+                <option selected>N/A</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <!--Visa categories score-->
+            <div class="col-md-6 form-group mt-3">
+              <label for="country">Visa Category</label>
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Student Visa
+                </label>
+              </div>
+
+              <!---->
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Skilled Migrant Category Residence
+                </label>
+              </div>
+
+              <!---->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Parents Category
+                </label>
+              </div>
+
+              <!---->
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Spouse Work Visa
+                </label>
+              </div>
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Spouse Visitor Visa
+                </label>
+              </div>
+
+              <!---->
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Visitor Visa
+                </label>
+              </div>
+
+              <!---->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Work Visa
+                </label>
+              </div>
+
+              <!---->
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  Business Visa
+                </label>
+              </div>
+
+              <!---->
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  2021 Resident Visa
+                </label>
+              </div>
+
+              <!---->
+
+              <div class="form-check">
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  value=""
+                  id="flexCheckDefault"
+                />
+                <label class="form-check-label" for="flexCheckDefault">
+                  COVID-19 Short Term Visa
+                </label>
+              </div>
+            </div>
+
+            <!--IELTS-->
+            <div class="col-md-12 form-group mt-3">
+              <label for="ielts">ILETS Overall Score</label>
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                id="ielts"
+              >
+                <option selected>N/A</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+
+            <!--PTE-->
+            <div class="col-md-12 form-group mt-3">
+              <label for="PTE">PTE</label>
+              <select
+                class="form-select"
+                aria-label="Default select example"
+                id="PTE"
+              >
+                <option selected>N/A</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group mt-3">
+            <textarea
+              class="form-control"
+              name="message"
+              rows="7"
+              placeholder="Any additional information"
+              required
+            ></textarea>
+          </div>
+
+          <div class="my-3">
+            <div class="loading">Loading</div>
+            <div class="error-message"></div>
+            <div class="sent-message">
+              Your message has been sent. Thank you!
+            </div>
+          </div>
+          <div class="text-center">
+            <button type="submit">Send Message</button>
+          </div>
+        </form>
+      </div>
+      <div class="col-lg-4">
+        <div
+          class="info-container d-flex flex-column align-items-center justify-content-start"
+        >
+          <div class="info-item d-flex">
+            <div>
+              <h4><i class="bi bi-geo-alt flex-shrink-0"></i> Address:</h4>
+              <br />
+              <p><strong>New Zealand</strong></p>
+              <p>586, Level 1, Great South Road, Ellerslie, Auckland</p>
+              <hr />
+              <p><strong>India</strong></p>
+              <p>
+                AK Plaza, Level 1 (Above Easyday Store), Jail Road, Gurdaspur,
+                Punjab
+              </p>
+            </div>
+          </div>
+          <!-- End Info Item -->
+
+          <div class="info-item d-flex">
+            <div>
+              <h4><i class="bi bi-phone flex-shrink-0"></i>Phone number:</h4>
+              <br />
+              <p><strong>New Zealand</strong></p>
+              <p>+64-212288334</p>
+              <p>+64-9-9485439</p>
+              <hr />
+              <p><strong>India</strong></p>
+              <p>+91-1874-243525</p>
+              <p>+91-8427733525</p>
+            </div>
+          </div>
+          <!-- End Info Item -->
+
+          <div class="info-item d-flex">
+            <i class="bi bi-envelope flex-shrink-0"></i>
+            <div>
+              <h4>Email:</h4>
+              <br />
+              <p>info@nzasiaconsultants.com</p>
+            </div>
+          </div>
+          <!-- End Info Item -->
+
+          <div class="info-item d-flex">
+            <i class="bi bi-clock flex-shrink-0"></i>
+            <div>
+              <h4>Opening Hours:</h4>
+              <p>
+                Monday – Friday 10 AM – 4 PM
+                <br />
+                Please arrange visit by appointment.
+              </p>
+            </div>
+          </div>
+          <!-- End Info Item -->
+        </div>
+      </div>
+
+      <!-- End Contact Form -->
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
+
+{{end}}
