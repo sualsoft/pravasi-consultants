@@ -3,6 +3,7 @@ title: About Us
 img: /assets/img/about-us.png
 ---
 
+## Who we are
 
 Harminder Singh, the managing director, has been working with Immigration New Zealand since 2007. Singh knows the relevant policies and understands the criteria that the migrant needs to meet, in order to obtain approval.
 
@@ -10,7 +11,22 @@ Harminder Singh is experienced in the field of immigration. Being an immigrant h
 
 Harminder Singh is an IAA licensed Immigration adviser, number 200902530 since Nov 2009 and a full member of the NZAMI (New Zealand Association for Migration & Investment).
 
+{{< counter >}}
 
+{{< row class="align-items-center" >}}
+
+<div class = "col-md-4">
+<img src="/assets/img/IAA-Trade-Mark_colour-150x150.jpg" alt="Logo" class = "img-fluid" />
+</div>
+
+<div class = "col-md-4">
+<img src="/assets/img/NZAMI-Logo-April-2021-300x160.jpg" alt="Logo" class = "img-fluid" />
+</div>
+
+<div class = "col-md-4">
+<img src="/assets/img/logo-only.png" alt="Logo" class = "img-fluid" />
+</div>
+{{< / row>}}
 
 #### Why NZ Asia Consultants
 
@@ -24,10 +40,6 @@ If you are considering the possibility of immigrating to New Zealand, then you a
 - We offer competitive fees.
 - We are based in Auckland with clients throughout world.
 - Free Airport pickup for International students
-
-
-
-
 
 #### Why use a Licensed Immigration Adviser
 

@@ -770,6 +770,36 @@ section {
   }
 }
 
+.counter {
+  padding: 30px 0px;
+}
+.count-box {
+  background-color: rgba(255, 145, 81, 0.1);
+  padding: 0rem 4rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.count-box .icon {
+  display: flex;
+  justify-content: center;
+}
+.count-box i {
+  font-size: 24px;
+  color: #fff;
+  border-radius: 500px;
+  padding: 8px 12px;
+  background-color: var(--main-color);
+}
+.count-box span {
+  font-size: 32px;
+  font-weight: 700;
+  margin-left: 1rem;
+}
+.count-box p {
+  font-weight: 700;
+  margin-top: 0.5rem;
+}
 /*--------------------------------------------------------------
 # Our Clients
 --------------------------------------------------------------*/
