@@ -34,20 +34,29 @@ New Zealand has an unlimited range of tourist attractions and activities, locate
 9. Friendly people and a stable democratic political atmosphere.
 10. Unlimited range of attractions and activities, located throughout New Zealand.
 
-#### About New Zealand
+{{< row >}}
 
-- 5,400 km/3,355 miles from Antarctica
-- 2,200 km/1,367 miles from Australia
-- 10,800 km/6,710 miles from the USA
-- 18,800 km/11,682 miles from the UK
-- 14,000 km/8,698 miles from India
+<div class="col-lg-6">
+<h4>About New Zealand</h4>
 
-**Land area:** 103,734 sq mi (268,671 sq km); total area: 103,737 sq mi (268,680 sq km)
-**Population (2021 est.):** 5,126,300 (growth rate: 2.1%); birth rate: 12.43 per 1000; life expectancy: male – 79.9 years, female 83.4 years; density per sq km: 19.1
-**Capital (2021 est.):** Wellington, population – 215,900
-**Largest city populations:** Auckland: 1,463,000; Christchurch: 380,600; Hamilton: 178,500;
+<ul>
+ <li>5,400 km/3,355 miles from Antarctica</li>
+ <li>2,200 km/1,367 miles from Australia</li>
+ <li>10,800 km/6,710 miles from the USA</li>
+ <li>18,800 km/11,682 miles from the UK</li>
+ <li>14,000 km/8,698 miles from India</li>
+</ul>
 
-![map of new zealand](https://nzasiaconsultants.com/wp-content/uploads/2020/12/nz_map_cropped-853x1024.png)
+<p><strong>Land area:</strong> 103,734 sq mi (268,671 sq km); total area: 103,737 sq mi (268,680 sq km)</p>
+<p><strong>Population (2021 est.):</strong> 5,126,300 (growth rate: 2.1%); birth rate: 12.43 per 1000; life expectancy: male – 79.9 years, female 83.4 years; density per sq km: 19.1</p>
+<p><strong>Capital (2021 est.):</strong> Wellington, population – 215,900</p>
+<p><strong>Largest city populations:</strong> Auckland: 1,463,000; Christchurch: 380,600; Hamilton: 178,500;</p>
+
+</div>
+<div class="col-lg-5">
+<img src="/assets/img/blog/nz_map_cropped-853x1024.png" alt="map of new zealand" class="img-fluid">
+</div>
+{{< /row >}}
 
 #### History
 
